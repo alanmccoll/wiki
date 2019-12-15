@@ -1,0 +1,26 @@
+/** Custom CSS for WIKI
+ */
+body {
+	font-size:14px;
+	color:#444;
+	line-height:1.2em;
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 300;
+}
+.input-group {
+	width:33%;
+	float:right;
+}
+@media only screen and (max-width: 800px) {
+	.input-group {
+    	width:60%;
+	}
+}
+.front-text {
+	float:left;
+}
+.margin-top-line {
+	margin-top:1em;
+	border-top:solid 1px #ddd;
+}
